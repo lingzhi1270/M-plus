@@ -20,8 +20,11 @@
 		A0A4A30C1F06234C00FF15FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A4A2DD1F0621FD00FF15FF /* Assets.xcassets */; };
 		A0A4A30D1F06234C00FF15FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A4A2DA1F0621FD00FF15FF /* Main.storyboard */; };
 		A0A4A34A1F06384900FF15FF /* LZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A3491F06384900FF15FF /* LZRootViewController.m */; };
-		A0A4A34D1F06386100FF15FF /* LZRootViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A34C1F06386100FF15FF /* LZRootViewControllerPad.m */; };
 		A0A4A3531F063FD500FF15FF /* M-plusHD-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A4A3521F063FD500FF15FF /* M-plusHD-Info.plist */; };
+		A0A4A35C1F06420A00FF15FF /* LZBaseViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A35B1F06420A00FF15FF /* LZBaseViewControllerPad.m */; };
+		A0A4A3651F06430800FF15FF /* LZRootViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A3641F06430800FF15FF /* LZRootViewControllerPad.m */; };
+		A0A4A3681F06432900FF15FF /* LZMainViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */; };
+		A0A4A36B1F064E0F00FF15FF /* LZNavigationViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A36A1F064E0F00FF15FF /* LZNavigationViewControllerPad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +41,15 @@
 		A0A4A3111F06234C00FF15FF /* M-plusHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-plusHD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4A3481F06384900FF15FF /* LZRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRootViewController.h; sourceTree = "<group>"; };
 		A0A4A3491F06384900FF15FF /* LZRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootViewController.m; sourceTree = "<group>"; };
-		A0A4A34B1F06386100FF15FF /* LZRootViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRootViewControllerPad.h; sourceTree = "<group>"; };
-		A0A4A34C1F06386100FF15FF /* LZRootViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootViewControllerPad.m; sourceTree = "<group>"; };
 		A0A4A3521F063FD500FF15FF /* M-plusHD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "M-plusHD-Info.plist"; sourceTree = "<group>"; };
+		A0A4A35A1F06420A00FF15FF /* LZBaseViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBaseViewControllerPad.h; sourceTree = "<group>"; };
+		A0A4A35B1F06420A00FF15FF /* LZBaseViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBaseViewControllerPad.m; sourceTree = "<group>"; };
+		A0A4A3631F06430800FF15FF /* LZRootViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRootViewControllerPad.h; sourceTree = "<group>"; };
+		A0A4A3641F06430800FF15FF /* LZRootViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootViewControllerPad.m; sourceTree = "<group>"; };
+		A0A4A3661F06432900FF15FF /* LZMainViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMainViewControllerPad.h; sourceTree = "<group>"; };
+		A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMainViewControllerPad.m; sourceTree = "<group>"; };
+		A0A4A3691F064E0F00FF15FF /* LZNavigationViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNavigationViewControllerPad.h; sourceTree = "<group>"; };
+		A0A4A36A1F064E0F00FF15FF /* LZNavigationViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNavigationViewControllerPad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +118,10 @@
 		A0A4A3461F06377A00FF15FF /* ipad */ = {
 			isa = PBXGroup;
 			children = (
-				A0A4A34B1F06386100FF15FF /* LZRootViewControllerPad.h */,
-				A0A4A34C1F06386100FF15FF /* LZRootViewControllerPad.m */,
+				A0A4A3541F0641A600FF15FF /* LZBase */,
+				A0A4A3551F0641B500FF15FF /* LZRoot */,
+				A0A4A3561F0641BD00FF15FF /* LZMain */,
+				A0A4A36C1F064E1500FF15FF /* LZNavigation */,
 			);
 			path = ipad;
 			sourceTree = "<group>";
@@ -129,6 +140,42 @@
 				A0A4A3521F063FD500FF15FF /* M-plusHD-Info.plist */,
 			);
 			name = "M-plus";
+			sourceTree = "<group>";
+		};
+		A0A4A3541F0641A600FF15FF /* LZBase */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4A35A1F06420A00FF15FF /* LZBaseViewControllerPad.h */,
+				A0A4A35B1F06420A00FF15FF /* LZBaseViewControllerPad.m */,
+			);
+			name = LZBase;
+			sourceTree = "<group>";
+		};
+		A0A4A3551F0641B500FF15FF /* LZRoot */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4A3631F06430800FF15FF /* LZRootViewControllerPad.h */,
+				A0A4A3641F06430800FF15FF /* LZRootViewControllerPad.m */,
+			);
+			name = LZRoot;
+			sourceTree = "<group>";
+		};
+		A0A4A3561F0641BD00FF15FF /* LZMain */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4A3661F06432900FF15FF /* LZMainViewControllerPad.h */,
+				A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */,
+			);
+			name = LZMain;
+			sourceTree = "<group>";
+		};
+		A0A4A36C1F064E1500FF15FF /* LZNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4A3691F064E0F00FF15FF /* LZNavigationViewControllerPad.h */,
+				A0A4A36A1F064E0F00FF15FF /* LZNavigationViewControllerPad.m */,
+			);
+			name = LZNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A4A36B1F064E0F00FF15FF /* LZNavigationViewControllerPad.m in Sources */,
 				A0A4A3061F06234C00FF15FF /* ViewController.m in Sources */,
+				A0A4A3651F06430800FF15FF /* LZRootViewControllerPad.m in Sources */,
 				A0A4A3071F06234C00FF15FF /* AppDelegate.m in Sources */,
-				A0A4A34D1F06386100FF15FF /* LZRootViewControllerPad.m in Sources */,
+				A0A4A3681F06432900FF15FF /* LZMainViewControllerPad.m in Sources */,
+				A0A4A35C1F06420A00FF15FF /* LZBaseViewControllerPad.m in Sources */,
 				A0A4A3081F06234C00FF15FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

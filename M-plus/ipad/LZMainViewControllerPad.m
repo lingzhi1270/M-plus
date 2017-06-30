@@ -1,30 +1,42 @@
 //
-//  LZRootViewControllerPad.m
+//  LZMainViewControllerPad.m
 //  M-plus
 //
 //  Created by lingzhi on 2017/6/30.
 //  Copyright © 2017年 lingzhi. All rights reserved.
 //
 
-#import "LZRootViewControllerPad.h"
+#import "LZMainViewControllerPad.h"
 
-@interface LZRootViewControllerPad ()
+@interface LZMainViewControllerPad ()
 
 @end
 
-@implementation LZRootViewControllerPad
+@implementation LZMainViewControllerPad
+
++ (LZMainViewControllerPad *)sharedInstance{
+    
+    static LZMainViewControllerPad *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[[self class] alloc] init];
+    });
+    
+    return instance;
+    
+}
+
+- (id)init{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  
-    [self.view setBackgroundColor:[UIColor lightGrayColor]];
-    _mainViewController = [LZMainViewControllerPad sharedInstance];
-    [self addChildViewController:_mainViewController];
-    [self.view addSubview:_mainViewController.view];
-    
-    
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

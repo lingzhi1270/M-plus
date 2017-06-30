@@ -1,29 +1,21 @@
 //
-//  LZRootViewControllerPad.m
+//  LZNavigationViewControllerPad.m
 //  M-plus
 //
 //  Created by lingzhi on 2017/6/30.
 //  Copyright © 2017年 lingzhi. All rights reserved.
 //
 
-#import "LZRootViewControllerPad.h"
+#import "LZNavigationViewControllerPad.h"
 
-@interface LZRootViewControllerPad ()
+@interface LZNavigationViewControllerPad ()
 
 @end
 
-@implementation LZRootViewControllerPad
+@implementation LZNavigationViewControllerPad
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  
-    [self.view setBackgroundColor:[UIColor lightGrayColor]];
-    _mainViewController = [LZMainViewControllerPad sharedInstance];
-    [self addChildViewController:_mainViewController];
-    [self.view addSubview:_mainViewController.view];
-    
-    
     
 }
 

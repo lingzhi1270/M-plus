@@ -6,8 +6,12 @@
 //  Copyright © 2017年 lingzhi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LZBaseViewControllerPad.h"
+#import "LZMainViewControllerPad.h"
 
-@interface LZRootViewControllerPad : UIViewController
+
+@interface LZRootViewControllerPad : LZBaseViewControllerPad
+
+@property (nonatomic,strong)LZMainViewControllerPad *mainViewController;
 
 @end
