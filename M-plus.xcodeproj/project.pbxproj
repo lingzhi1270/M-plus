@@ -21,6 +21,7 @@
 		A0A4A30D1F06234C00FF15FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A4A2DA1F0621FD00FF15FF /* Main.storyboard */; };
 		A0A4A34A1F06384900FF15FF /* LZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A3491F06384900FF15FF /* LZRootViewController.m */; };
 		A0A4A34D1F06386100FF15FF /* LZRootViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A34C1F06386100FF15FF /* LZRootViewControllerPad.m */; };
+		A0A4A3531F063FD500FF15FF /* M-plusHD-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A4A3521F063FD500FF15FF /* M-plusHD-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +36,11 @@
 		A0A4A2E01F0621FD00FF15FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0A4A2E21F0621FD00FF15FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0A4A3111F06234C00FF15FF /* M-plusHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-plusHD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0A4A3121F06234C00FF15FF /* M-plusHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "M-plusHD-Info.plist"; path = "/Users/lingzhi/Desktop/M-plus/M-plusHD-Info.plist"; sourceTree = "<absolute>"; };
 		A0A4A3481F06384900FF15FF /* LZRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRootViewController.h; sourceTree = "<group>"; };
 		A0A4A3491F06384900FF15FF /* LZRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootViewController.m; sourceTree = "<group>"; };
 		A0A4A34B1F06386100FF15FF /* LZRootViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRootViewControllerPad.h; sourceTree = "<group>"; };
 		A0A4A34C1F06386100FF15FF /* LZRootViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootViewControllerPad.m; sourceTree = "<group>"; };
+		A0A4A3521F063FD500FF15FF /* M-plusHD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "M-plusHD-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +126,7 @@
 				A0A4A2DD1F0621FD00FF15FF /* Assets.xcassets */,
 				A0A4A2DF1F0621FD00FF15FF /* LaunchScreen.storyboard */,
 				A0A4A2E21F0621FD00FF15FF /* Info.plist */,
-				A0A4A3121F06234C00FF15FF /* M-plusHD-Info.plist */,
+				A0A4A3521F063FD500FF15FF /* M-plusHD-Info.plist */,
 			);
 			name = "M-plus";
 			sourceTree = "<group>";
@@ -220,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A4A3531F063FD500FF15FF /* M-plusHD-Info.plist in Resources */,
 				A0A4A30B1F06234C00FF15FF /* LaunchScreen.storyboard in Resources */,
 				A0A4A30C1F06234C00FF15FF /* Assets.xcassets in Resources */,
 				A0A4A30D1F06234C00FF15FF /* Main.storyboard in Resources */,
@@ -444,6 +446,7 @@
 				A0A4A2FD1F0621FD00FF15FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0A4A30E1F06234C00FF15FF /* Build configuration list for PBXNativeTarget "M-plusHD" */ = {
 			isa = XCConfigurationList;
