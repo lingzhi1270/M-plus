@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A08279CB1F073217003CF5D0 /* LZModuleInfoPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A08279CA1F073217003CF5D0 /* LZModuleInfoPad.m */; };
 		A0A4A2D31F0621FD00FF15FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A2D21F0621FD00FF15FF /* main.m */; };
 		A0A4A2D61F0621FD00FF15FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A2D51F0621FD00FF15FF /* AppDelegate.m */; };
 		A0A4A2D91F0621FD00FF15FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A2D81F0621FD00FF15FF /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A08279C91F073217003CF5D0 /* LZModuleInfoPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZModuleInfoPad.h; sourceTree = "<group>"; };
+		A08279CA1F073217003CF5D0 /* LZModuleInfoPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZModuleInfoPad.m; sourceTree = "<group>"; };
 		A0A4A2CE1F0621FD00FF15FF /* M-plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4A2D21F0621FD00FF15FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0A4A2D41F0621FD00FF15FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A08279C81F07316C003CF5D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A08279C91F073217003CF5D0 /* LZModuleInfoPad.h */,
+				A08279CA1F073217003CF5D0 /* LZModuleInfoPad.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A0A4A2C51F0621FD00FF15FF = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +175,7 @@
 		A0A4A3561F0641BD00FF15FF /* LZMain */ = {
 			isa = PBXGroup;
 			children = (
+				A08279C81F07316C003CF5D0 /* Model */,
 				A0A4A3661F06432900FF15FF /* LZMainViewControllerPad.h */,
 				A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */,
 			);
@@ -294,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A4A36B1F064E0F00FF15FF /* LZNavigationViewControllerPad.m in Sources */,
+				A08279CB1F073217003CF5D0 /* LZModuleInfoPad.m in Sources */,
 				A0A4A3061F06234C00FF15FF /* ViewController.m in Sources */,
 				A0A4A3651F06430800FF15FF /* LZRootViewControllerPad.m in Sources */,
 				A0A4A3071F06234C00FF15FF /* AppDelegate.m in Sources */,

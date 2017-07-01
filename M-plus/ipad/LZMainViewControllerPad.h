@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LZMainViewControllerPad : UIViewController
+@interface LZMainViewControllerPad : UIViewController<UITableViewDelegate,UITableViewDataSource>{
+    NSMutableArray *moduleArray;
+    UITableView *moduleTableView;
+    
+    
+}
+
+@property (nonatomic,strong)UIButton *avatarBtn;
+
 
 + (LZMainViewControllerPad *)sharedInstance;
-
++ (void)releaseSharedInstance;
 @end
