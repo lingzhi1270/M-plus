@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03335F11F09DCFF00BF8364 /* LZModuleListCellPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A03335F01F09DCFF00BF8364 /* LZModuleListCellPad.m */; };
+		A03335FB1F09E3C800BF8364 /* LZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A03335FA1F09E3C800BF8364 /* LZUtil.m */; };
+		A03335FC1F09E3C800BF8364 /* LZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A03335FA1F09E3C800BF8364 /* LZUtil.m */; };
+		A03336001F09EBFD00BF8364 /* pad_mplus_menu_message_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03335FE1F09EBFD00BF8364 /* pad_mplus_menu_message_on@2x.png */; };
+		A03336011F09EBFD00BF8364 /* pad_mplus_menu_message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03335FF1F09EBFD00BF8364 /* pad_mplus_menu_message@2x.png */; };
+		A03336041F09EC1800BF8364 /* pad_mplus_menu_contact_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03336021F09EC1800BF8364 /* pad_mplus_menu_contact_on@2x.png */; };
+		A03336051F09EC1800BF8364 /* pad_mplus_menu_contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03336031F09EC1800BF8364 /* pad_mplus_menu_contact@2x.png */; };
+		A03336081F09EC2C00BF8364 /* pad_mplus_menu_work_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03336061F09EC2C00BF8364 /* pad_mplus_menu_work_on@2x.png */; };
+		A03336091F09EC2C00BF8364 /* pad_mplus_menu_work@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03336071F09EC2C00BF8364 /* pad_mplus_menu_work@2x.png */; };
+		A033360C1F09EC7100BF8364 /* pad_mplus_menu_doc_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A033360A1F09EC7100BF8364 /* pad_mplus_menu_doc_on@2x.png */; };
+		A033360D1F09EC7100BF8364 /* pad_mplus_menu_doc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A033360B1F09EC7100BF8364 /* pad_mplus_menu_doc@2x.png */; };
+		A03336101F09ECB500BF8364 /* pad_mplus_menu_more_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A033360E1F09ECB500BF8364 /* pad_mplus_menu_more_on@2x.png */; };
+		A03336111F09ECB500BF8364 /* pad_mplus_menu_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A033360F1F09ECB500BF8364 /* pad_mplus_menu_more@2x.png */; };
+		A03336181F09F1F600BF8364 /* pad_mplus_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03336171F09F1F600BF8364 /* pad_mplus_logo@2x.png */; };
+		A033361C1F09F56E00BF8364 /* LZMoreViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A033361B1F09F56E00BF8364 /* LZMoreViewControllerPad.m */; };
+		A033361F1F09F67C00BF8364 /* LZMessageViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A033361E1F09F67C00BF8364 /* LZMessageViewControllerPad.m */; };
+		A03336221F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A03336211F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m */; };
+		A03336251F09F6F000BF8364 /* LZWorkTableViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A03336241F09F6F000BF8364 /* LZWorkTableViewControllerPad.m */; };
+		A03336281F09F74D00BF8364 /* LZContactViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A03336271F09F74D00BF8364 /* LZContactViewControllerPad.m */; };
 		A08279CB1F073217003CF5D0 /* LZModuleInfoPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A08279CA1F073217003CF5D0 /* LZModuleInfoPad.m */; };
 		A0A4A2D31F0621FD00FF15FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A2D21F0621FD00FF15FF /* main.m */; };
 		A0A4A2D61F0621FD00FF15FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A2D51F0621FD00FF15FF /* AppDelegate.m */; };
@@ -29,6 +48,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03335EF1F09DCFF00BF8364 /* LZModuleListCellPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZModuleListCellPad.h; sourceTree = "<group>"; };
+		A03335F01F09DCFF00BF8364 /* LZModuleListCellPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZModuleListCellPad.m; sourceTree = "<group>"; };
+		A03335F91F09E3C800BF8364 /* LZUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZUtil.h; sourceTree = "<group>"; };
+		A03335FA1F09E3C800BF8364 /* LZUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZUtil.m; sourceTree = "<group>"; };
+		A03335FE1F09EBFD00BF8364 /* pad_mplus_menu_message_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_message_on@2x.png"; sourceTree = "<group>"; };
+		A03335FF1F09EBFD00BF8364 /* pad_mplus_menu_message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_message@2x.png"; sourceTree = "<group>"; };
+		A03336021F09EC1800BF8364 /* pad_mplus_menu_contact_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_contact_on@2x.png"; sourceTree = "<group>"; };
+		A03336031F09EC1800BF8364 /* pad_mplus_menu_contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_contact@2x.png"; sourceTree = "<group>"; };
+		A03336061F09EC2C00BF8364 /* pad_mplus_menu_work_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_work_on@2x.png"; sourceTree = "<group>"; };
+		A03336071F09EC2C00BF8364 /* pad_mplus_menu_work@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_work@2x.png"; sourceTree = "<group>"; };
+		A033360A1F09EC7100BF8364 /* pad_mplus_menu_doc_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_doc_on@2x.png"; sourceTree = "<group>"; };
+		A033360B1F09EC7100BF8364 /* pad_mplus_menu_doc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_doc@2x.png"; sourceTree = "<group>"; };
+		A033360E1F09ECB500BF8364 /* pad_mplus_menu_more_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_more_on@2x.png"; sourceTree = "<group>"; };
+		A033360F1F09ECB500BF8364 /* pad_mplus_menu_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_menu_more@2x.png"; sourceTree = "<group>"; };
+		A03336171F09F1F600BF8364 /* pad_mplus_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_mplus_logo@2x.png"; sourceTree = "<group>"; };
+		A033361A1F09F56E00BF8364 /* LZMoreViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMoreViewControllerPad.h; sourceTree = "<group>"; };
+		A033361B1F09F56E00BF8364 /* LZMoreViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMoreViewControllerPad.m; sourceTree = "<group>"; };
+		A033361D1F09F67C00BF8364 /* LZMessageViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageViewControllerPad.h; sourceTree = "<group>"; };
+		A033361E1F09F67C00BF8364 /* LZMessageViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageViewControllerPad.m; sourceTree = "<group>"; };
+		A03336201F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageLevelTwoViewControllerPad.h; sourceTree = "<group>"; };
+		A03336211F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageLevelTwoViewControllerPad.m; sourceTree = "<group>"; };
+		A03336231F09F6F000BF8364 /* LZWorkTableViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWorkTableViewControllerPad.h; sourceTree = "<group>"; };
+		A03336241F09F6F000BF8364 /* LZWorkTableViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWorkTableViewControllerPad.m; sourceTree = "<group>"; };
+		A03336261F09F74D00BF8364 /* LZContactViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZContactViewControllerPad.h; sourceTree = "<group>"; };
+		A03336271F09F74D00BF8364 /* LZContactViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZContactViewControllerPad.m; sourceTree = "<group>"; };
 		A08279C91F073217003CF5D0 /* LZModuleInfoPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZModuleInfoPad.h; sourceTree = "<group>"; };
 		A08279CA1F073217003CF5D0 /* LZModuleInfoPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZModuleInfoPad.m; sourceTree = "<group>"; };
 		A0A4A2CE1F0621FD00FF15FF /* M-plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +117,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03335F41F09E39600BF8364 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A03335F91F09E3C800BF8364 /* LZUtil.h */,
+				A03335FA1F09E3C800BF8364 /* LZUtil.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		A03335FD1F09EBD600BF8364 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A03336171F09F1F600BF8364 /* pad_mplus_logo@2x.png */,
+				A033360E1F09ECB500BF8364 /* pad_mplus_menu_more_on@2x.png */,
+				A033360F1F09ECB500BF8364 /* pad_mplus_menu_more@2x.png */,
+				A033360A1F09EC7100BF8364 /* pad_mplus_menu_doc_on@2x.png */,
+				A033360B1F09EC7100BF8364 /* pad_mplus_menu_doc@2x.png */,
+				A03336061F09EC2C00BF8364 /* pad_mplus_menu_work_on@2x.png */,
+				A03336071F09EC2C00BF8364 /* pad_mplus_menu_work@2x.png */,
+				A03335FE1F09EBFD00BF8364 /* pad_mplus_menu_message_on@2x.png */,
+				A03335FF1F09EBFD00BF8364 /* pad_mplus_menu_message@2x.png */,
+				A03336021F09EC1800BF8364 /* pad_mplus_menu_contact_on@2x.png */,
+				A03336031F09EC1800BF8364 /* pad_mplus_menu_contact@2x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		A03336121F09F01900BF8364 /* LZModule */ = {
+			isa = PBXGroup;
+			children = (
+				A03336191F09F4EE00BF8364 /* more */,
+				A03336131F09F01900BF8364 /* contact */,
+				A03336141F09F01900BF8364 /* message */,
+				A03336151F09F01900BF8364 /* messageLevelTwoView */,
+				A03336161F09F01900BF8364 /* workTable */,
+			);
+			path = LZModule;
+			sourceTree = "<group>";
+		};
+		A03336131F09F01900BF8364 /* contact */ = {
+			isa = PBXGroup;
+			children = (
+				A03336261F09F74D00BF8364 /* LZContactViewControllerPad.h */,
+				A03336271F09F74D00BF8364 /* LZContactViewControllerPad.m */,
+			);
+			path = contact;
+			sourceTree = "<group>";
+		};
+		A03336141F09F01900BF8364 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				A033361D1F09F67C00BF8364 /* LZMessageViewControllerPad.h */,
+				A033361E1F09F67C00BF8364 /* LZMessageViewControllerPad.m */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		A03336151F09F01900BF8364 /* messageLevelTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				A03336201F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.h */,
+				A03336211F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m */,
+			);
+			path = messageLevelTwoView;
+			sourceTree = "<group>";
+		};
+		A03336161F09F01900BF8364 /* workTable */ = {
+			isa = PBXGroup;
+			children = (
+				A03336231F09F6F000BF8364 /* LZWorkTableViewControllerPad.h */,
+				A03336241F09F6F000BF8364 /* LZWorkTableViewControllerPad.m */,
+			);
+			path = workTable;
+			sourceTree = "<group>";
+		};
+		A03336191F09F4EE00BF8364 /* more */ = {
+			isa = PBXGroup;
+			children = (
+				A033361A1F09F56E00BF8364 /* LZMoreViewControllerPad.h */,
+				A033361B1F09F56E00BF8364 /* LZMoreViewControllerPad.m */,
+			);
+			name = more;
+			path = workTable/more;
+			sourceTree = "<group>";
+		};
 		A08279C81F07316C003CF5D0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +259,8 @@
 		A0A4A3461F06377A00FF15FF /* ipad */ = {
 			isa = PBXGroup;
 			children = (
+				A03336121F09F01900BF8364 /* LZModule */,
+				A03335FD1F09EBD600BF8364 /* source */,
 				A0A4A3541F0641A600FF15FF /* LZBase */,
 				A0A4A3551F0641B500FF15FF /* LZRoot */,
 				A0A4A3561F0641BD00FF15FF /* LZMain */,
@@ -141,6 +272,7 @@
 		A0A4A3471F0637A100FF15FF /* M-plus */ = {
 			isa = PBXGroup;
 			children = (
+				A03335F41F09E39600BF8364 /* common */,
 				A0A4A2D41F0621FD00FF15FF /* AppDelegate.h */,
 				A0A4A2D51F0621FD00FF15FF /* AppDelegate.m */,
 				A0A4A2D71F0621FD00FF15FF /* ViewController.h */,
@@ -178,6 +310,8 @@
 				A08279C81F07316C003CF5D0 /* Model */,
 				A0A4A3661F06432900FF15FF /* LZMainViewControllerPad.h */,
 				A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */,
+				A03335EF1F09DCFF00BF8364 /* LZModuleListCellPad.h */,
+				A03335F01F09DCFF00BF8364 /* LZModuleListCellPad.m */,
 			);
 			name = LZMain;
 			sourceTree = "<group>";
@@ -281,10 +415,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03336091F09EC2C00BF8364 /* pad_mplus_menu_work@2x.png in Resources */,
 				A0A4A3531F063FD500FF15FF /* M-plusHD-Info.plist in Resources */,
+				A03336041F09EC1800BF8364 /* pad_mplus_menu_contact_on@2x.png in Resources */,
+				A03336101F09ECB500BF8364 /* pad_mplus_menu_more_on@2x.png in Resources */,
+				A03336011F09EBFD00BF8364 /* pad_mplus_menu_message@2x.png in Resources */,
+				A03336001F09EBFD00BF8364 /* pad_mplus_menu_message_on@2x.png in Resources */,
 				A0A4A30B1F06234C00FF15FF /* LaunchScreen.storyboard in Resources */,
+				A033360C1F09EC7100BF8364 /* pad_mplus_menu_doc_on@2x.png in Resources */,
+				A03336181F09F1F600BF8364 /* pad_mplus_logo@2x.png in Resources */,
 				A0A4A30C1F06234C00FF15FF /* Assets.xcassets in Resources */,
+				A033360D1F09EC7100BF8364 /* pad_mplus_menu_doc@2x.png in Resources */,
+				A03336111F09ECB500BF8364 /* pad_mplus_menu_more@2x.png in Resources */,
+				A03336051F09EC1800BF8364 /* pad_mplus_menu_contact@2x.png in Resources */,
 				A0A4A30D1F06234C00FF15FF /* Main.storyboard in Resources */,
+				A03336081F09EC2C00BF8364 /* pad_mplus_menu_work_on@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03335FB1F09E3C800BF8364 /* LZUtil.m in Sources */,
 				A0A4A2D91F0621FD00FF15FF /* ViewController.m in Sources */,
 				A0A4A2D61F0621FD00FF15FF /* AppDelegate.m in Sources */,
 				A0A4A34A1F06384900FF15FF /* LZRootViewController.m in Sources */,
@@ -311,9 +457,16 @@
 				A0A4A3061F06234C00FF15FF /* ViewController.m in Sources */,
 				A0A4A3651F06430800FF15FF /* LZRootViewControllerPad.m in Sources */,
 				A0A4A3071F06234C00FF15FF /* AppDelegate.m in Sources */,
+				A033361C1F09F56E00BF8364 /* LZMoreViewControllerPad.m in Sources */,
+				A03336251F09F6F000BF8364 /* LZWorkTableViewControllerPad.m in Sources */,
+				A03335FC1F09E3C800BF8364 /* LZUtil.m in Sources */,
 				A0A4A3681F06432900FF15FF /* LZMainViewControllerPad.m in Sources */,
+				A03335F11F09DCFF00BF8364 /* LZModuleListCellPad.m in Sources */,
+				A03336221F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m in Sources */,
 				A0A4A35C1F06420A00FF15FF /* LZBaseViewControllerPad.m in Sources */,
+				A033361F1F09F67C00BF8364 /* LZMessageViewControllerPad.m in Sources */,
 				A0A4A3081F06234C00FF15FF /* main.m in Sources */,
+				A03336281F09F74D00BF8364 /* LZContactViewControllerPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LZNavigationViewControllerPad.h"
 
 @interface LZMainViewControllerPad : UIViewController<UITableViewDelegate,UITableViewDataSource>{
     NSMutableArray *moduleArray;
     UITableView *moduleTableView;
-    
+    LZNavigationViewControllerPad *navigationVC;
     
 }
 
