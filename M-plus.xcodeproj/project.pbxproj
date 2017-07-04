@@ -45,6 +45,8 @@
 		A0A4A3651F06430800FF15FF /* LZRootViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A3641F06430800FF15FF /* LZRootViewControllerPad.m */; };
 		A0A4A3681F06432900FF15FF /* LZMainViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */; };
 		A0A4A36B1F064E0F00FF15FF /* LZNavigationViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4A36A1F064E0F00FF15FF /* LZNavigationViewControllerPad.m */; };
+		A0F20BB71F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F20BB61F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.m */; };
+		A0F20BBA1F0B41DD00163625 /* LZContactLevelTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F20BB91F0B41DD00163625 /* LZContactLevelTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,8 +69,8 @@
 		A033361B1F09F56E00BF8364 /* LZMoreViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMoreViewControllerPad.m; sourceTree = "<group>"; };
 		A033361D1F09F67C00BF8364 /* LZMessageViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageViewControllerPad.h; sourceTree = "<group>"; };
 		A033361E1F09F67C00BF8364 /* LZMessageViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageViewControllerPad.m; sourceTree = "<group>"; };
-		A03336201F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMessageLevelTwoViewControllerPad.h; sourceTree = "<group>"; };
-		A03336211F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMessageLevelTwoViewControllerPad.m; sourceTree = "<group>"; };
+		A03336201F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZMessageLevelTwoViewControllerPad.h; path = "M-plus/ipad/LZModule/messageLevelTwoView/LZMessageLevelTwoViewControllerPad.h"; sourceTree = SOURCE_ROOT; };
+		A03336211F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZMessageLevelTwoViewControllerPad.m; path = "M-plus/ipad/LZModule/messageLevelTwoView/LZMessageLevelTwoViewControllerPad.m"; sourceTree = SOURCE_ROOT; };
 		A03336231F09F6F000BF8364 /* LZWorkTableViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWorkTableViewControllerPad.h; sourceTree = "<group>"; };
 		A03336241F09F6F000BF8364 /* LZWorkTableViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWorkTableViewControllerPad.m; sourceTree = "<group>"; };
 		A03336261F09F74D00BF8364 /* LZContactViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZContactViewControllerPad.h; sourceTree = "<group>"; };
@@ -97,6 +99,10 @@
 		A0A4A3671F06432900FF15FF /* LZMainViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMainViewControllerPad.m; sourceTree = "<group>"; };
 		A0A4A3691F064E0F00FF15FF /* LZNavigationViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNavigationViewControllerPad.h; sourceTree = "<group>"; };
 		A0A4A36A1F064E0F00FF15FF /* LZNavigationViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNavigationViewControllerPad.m; sourceTree = "<group>"; };
+		A0F20BB51F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMoreLevelTwoViewControllerPad.h; sourceTree = "<group>"; };
+		A0F20BB61F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMoreLevelTwoViewControllerPad.m; sourceTree = "<group>"; };
+		A0F20BB81F0B41DD00163625 /* LZContactLevelTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZContactLevelTwoViewController.h; sourceTree = "<group>"; };
+		A0F20BB91F0B41DD00163625 /* LZContactLevelTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZContactLevelTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +156,6 @@
 				A03336191F09F4EE00BF8364 /* more */,
 				A03336131F09F01900BF8364 /* contact */,
 				A03336141F09F01900BF8364 /* message */,
-				A03336151F09F01900BF8364 /* messageLevelTwoView */,
 				A03336161F09F01900BF8364 /* workTable */,
 			);
 			path = LZModule;
@@ -161,6 +166,8 @@
 			children = (
 				A03336261F09F74D00BF8364 /* LZContactViewControllerPad.h */,
 				A03336271F09F74D00BF8364 /* LZContactViewControllerPad.m */,
+				A0F20BB81F0B41DD00163625 /* LZContactLevelTwoViewController.h */,
+				A0F20BB91F0B41DD00163625 /* LZContactLevelTwoViewController.m */,
 			);
 			path = contact;
 			sourceTree = "<group>";
@@ -170,17 +177,10 @@
 			children = (
 				A033361D1F09F67C00BF8364 /* LZMessageViewControllerPad.h */,
 				A033361E1F09F67C00BF8364 /* LZMessageViewControllerPad.m */,
-			);
-			path = message;
-			sourceTree = "<group>";
-		};
-		A03336151F09F01900BF8364 /* messageLevelTwoView */ = {
-			isa = PBXGroup;
-			children = (
 				A03336201F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.h */,
 				A03336211F09F69B00BF8364 /* LZMessageLevelTwoViewControllerPad.m */,
 			);
-			path = messageLevelTwoView;
+			path = message;
 			sourceTree = "<group>";
 		};
 		A03336161F09F01900BF8364 /* workTable */ = {
@@ -197,6 +197,8 @@
 			children = (
 				A033361A1F09F56E00BF8364 /* LZMoreViewControllerPad.h */,
 				A033361B1F09F56E00BF8364 /* LZMoreViewControllerPad.m */,
+				A0F20BB51F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.h */,
+				A0F20BB61F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.m */,
 			);
 			name = more;
 			path = workTable/more;
@@ -453,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A4A36B1F064E0F00FF15FF /* LZNavigationViewControllerPad.m in Sources */,
+				A0F20BB71F0B41B700163625 /* LZMoreLevelTwoViewControllerPad.m in Sources */,
 				A08279CB1F073217003CF5D0 /* LZModuleInfoPad.m in Sources */,
 				A0A4A3061F06234C00FF15FF /* ViewController.m in Sources */,
 				A0A4A3651F06430800FF15FF /* LZRootViewControllerPad.m in Sources */,
@@ -467,6 +470,7 @@
 				A033361F1F09F67C00BF8364 /* LZMessageViewControllerPad.m in Sources */,
 				A0A4A3081F06234C00FF15FF /* main.m in Sources */,
 				A03336281F09F74D00BF8364 /* LZContactViewControllerPad.m in Sources */,
+				A0F20BBA1F0B41DD00163625 /* LZContactLevelTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
