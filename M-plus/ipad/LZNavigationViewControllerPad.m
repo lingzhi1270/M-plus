@@ -109,22 +109,51 @@
 - (void)pushLevelOneViewController:(Class)LevelOneVCClass withFrame:(CGRect)frame withModuleInfo:(LZModuleInfoPad *)moduleInfo
 {
     //如果重复点击当前模块，不需要走下边的流程
-    if ([curLevelOneVC isKindOfClass:LevelOneVCClass]) {
-    
-        if ([curLevelOneVC isKindOfClass:[LZMoreViewControllerPad class]]) {
-            if (lastLevelOneVC && [lastLevelOneVC isKindOfClass:[LZMoreViewControllerPad class]]) {
-                
-                lastLevelOneVC = nil;
-                [self levelOneViewWillAppearIfNeeded:curLevelOneVC];
-            }
-            return;
-            
-        }
+    if ([curLevelOneVC isKindOfClass:LevelOneVCClass])
+    {
+       return;
 
     }
     else
     {
-        return;
+        [self levelOneViewWillDisappearIfNeeded];
+    }
+    
+    BOOL exist = NO;
+    
+    for (UIViewController *viewController in levelOneVCArray)
+    {
+        if ([viewController isKindOfClass:LevelOneVCClass])
+        {
+        
+            //这里不需要break，因为要把其他controller的view隐藏掉
+            exist = YES;
+            viewController.view.hidden = NO;
+            [self levelOneViewWillAppearIfNeeded:viewController];
+            curLevelOneVC = viewController;
+        }
+        else
+        {
+            viewController.view.hidden = YES;
+        }
+        
+    }
+    
+    if (!exist)
+    {
+        UIViewController *levelOneVC = [[LevelOneVCClass alloc] init];
+        
+        if ([levelOneVC isKindOfClass:[LZWorkTableViewControllerPad class]])
+        {
+            ((LZWorkTableViewControllerPad *)levelOneVC).moduleInfoPad = moduleInfo;
+        }
+        
+        levelOneVC.view.frame = frame;
+        [self addChildViewController:levelOneVC];
+        [self.view addSubview:levelOneVC.view];
+        [self levelOneViewWillAppearIfNeeded:levelOneVC];
+        [levelOneVCArray addObject:levelOneVC];
+        curLevelOneVC = levelOneVC;
     }
 }
 

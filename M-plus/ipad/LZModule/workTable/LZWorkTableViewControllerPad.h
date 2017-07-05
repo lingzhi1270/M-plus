@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LZModuleInfoPad.h"
 @interface LZWorkTableViewControllerPad : UIViewController
+
+@property (nonatomic, strong) LZModuleInfoPad *moduleInfoPad;
+
 - (void)levelOneViewWillAppear;
 @end
