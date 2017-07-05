@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LZMessageViewControllerPad : UIViewController
+
+
 - (void)levelOneViewWillAppear;
 @end
