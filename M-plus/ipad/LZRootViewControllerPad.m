@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
   
-    [self.view setBackgroundColor:[UIColor lightGrayColor]];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     _mainViewController = [LZMainViewControllerPad sharedInstance];
     [self addChildViewController:_mainViewController];
     [self.view addSubview:_mainViewController.view];
