@@ -16,15 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  
+
     [self.view setBackgroundColor:[UIColor whiteColor]];
     _mainViewController = [LZMainViewControllerPad sharedInstance];
     [self addChildViewController:_mainViewController];
     [self.view addSubview:_mainViewController.view];
     
-    
-    
+    [self testlz];
+}
+
+- (void)testlz
+{
+    NSLog(@"创建分支联系");
 }
 
 - (void)didReceiveMemoryWarning {
